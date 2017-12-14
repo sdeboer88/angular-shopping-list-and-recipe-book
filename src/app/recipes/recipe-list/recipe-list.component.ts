@@ -8,7 +8,8 @@ import {Recipe} from "../recipe.model";
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Cheesecake','Good stuff','http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/9/0/FNK_Cheesecake_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387411272847.jpeg')
+    new Recipe('Cheesecake','Good stuff','http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/9/0/FNK_Cheesecake_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387411272847.jpeg'),
+    new Recipe('Pizza','Italian','https://giordanos.com/content/uploads/Pizza_New-Homepage-image.jpg')
   ];
 
   constructor() { }
